@@ -1,0 +1,15 @@
+#Stop the previously created namespace
+
+/opt/minimega/bin/minimega -e clear all
+/opt/minimega/bin/minimega -e clear tap
+
+
+ovs-vsctl del-port mega_bridge wlp2s0
+dhclient wlp2s0
+
+#Delete all taps created be previous script
+#/opt/minimega/bin/minimega -e tap delete all
+
+#/opt/minimega/bin/minimega -e clear tap
+
+
