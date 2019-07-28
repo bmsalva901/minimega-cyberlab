@@ -20,9 +20,7 @@ vm launch kvm pfSense
 
 ###Kali
 clear vm config
-disk create qcow2 /opt/minimega/images/ali-linux-2019.2-amd64.qcow2 20G
-vm config disk /opt/minimega/images/kali-linux-2019.2-amd64.qcow2
-vm config cdrom /opt/minimega/images/kali-linux-2019.2-amd64.iso 
+vm config disk /opt/minimega/images/kali-linux.qcow2
 vm config memory 2048
 vm config net LAN
 vm config snapshot true
