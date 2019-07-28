@@ -13,7 +13,7 @@ echo Downloading Metaspliot2 from: https://downloads.sourceforge.net/project/met
 echo '##########################################################'
 
 sudo wget https://downloads.sourceforge.net/project/metasploitable/Metasploitable2/metasploitable-linux-2.0.0.zip -O /opt/minimega/images/metasploitable-linux-2.0.0.zip
-sudo unzip /opt/minimega/images/metasploitable-linux-2.0.0.zip
+sudo unzip /opt/minimega/images/metasploitable-linux-2.0.0.zip -d /opt/minimega/images/
 qemu-img convert -f vmdk -O qcow2 /opt/minimega/images/Metasploitable2-Linux/Metasploitable.vmdk /opt/minimega/images/metasploitable.qcow2
 
 
