@@ -1,7 +1,4 @@
 #!bin/bash
-#
-###Sript to download pfsense, kali & ubuntu or any other iso
-sudo mkdir /opt/minimega/cyberLab/vms
 
 echo Downloading pfSense-2.4.4-p3 from: https://nyifiles.pfsense.org/mirror/downloads/pfSense-CE-2.4.4-RELEASE-amd64.iso.gz
 echo '##########################################################'
