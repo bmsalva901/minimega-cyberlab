@@ -1,7 +1,7 @@
 #!/bin/bash
 echo Updating you box...
 sudo apt update && sudo apt upgrade -y
-sudo apt install git golang openvswitch-switch qemu-kvm qemu-utils dnsmasq ntfs-3g iproute2 libpcap-dev -y 
+sudo apt install git golang openvswitch-switch qemu-kvm qemu-utils dnsmasq ntfs-3g iproute2 libpcap-dev unzip -y 
 
 # Building minimega
 
