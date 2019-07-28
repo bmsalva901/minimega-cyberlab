@@ -1,0 +1,11 @@
+[Unit]
+Description=minimega Service
+After=multi-user.target
+
+[Service]
+ExecStart=/opt/minimega/bin/minimega -nostdin -base=/tmp/minimega -filepath=/opt/minimega/images -degree 5 -context minimega
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

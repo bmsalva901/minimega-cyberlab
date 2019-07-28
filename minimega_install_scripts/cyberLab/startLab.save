@@ -1,0 +1,4 @@
+#start the vm deployment sc/opt/minimega/bin/minimega -e read /home/bmsalva90/minimegaScripts/minimega_install_scripts/cyberLab/cyberLab.mm
+
+#attaches the newly created bridge to the physical interface
+

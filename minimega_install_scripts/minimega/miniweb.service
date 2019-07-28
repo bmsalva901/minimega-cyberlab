@@ -1,0 +1,13 @@
+[Unit]
+Description=miniweb Service
+After=multi-user.target
+
+[Service]
+ExecStart=/opt/minimega/bin/miniweb -addr=0.0.0.0:80 -base=/tmp/minimega root=/opt/minimega/misc/web -console
+Restart=always
+RestartSec=3
+WorkingDirectory=/opt/minimega
+
+[Install]
+WantedBy=multi-user.target
+
