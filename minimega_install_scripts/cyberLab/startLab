@@ -1,5 +1,4 @@
 #start the vm deployment script
-MYUSER=$(whoami)
 
 sudo /opt/minimega/bin/minimega -e read /opt/minimega/cyberLab/cyberLab.mm
 
