@@ -31,7 +31,7 @@ clear vm config
 vm config disk /opt/minimega/images/metasploitable.qcow2
 vm config memory 1024
 vm config net LAN
-vm config snapshot false
+vm config snapshot true
 vm config qemu-append -vga qxl
 vm launch kvm Metasploitable
 

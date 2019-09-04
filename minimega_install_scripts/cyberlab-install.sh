@@ -9,6 +9,3 @@ bash .bridge-config-02.sh
 
 #Downloads virtual machines from various sources, depackages, converts them to qcow2 and removes unwanted leftover files
 bash .download-vms-03.sh 
-
-#Initialized the cyberLab for the first time. Only run this command on first install of you are starting from scratch.
-bash .initial-cyberlab-start-04.sh

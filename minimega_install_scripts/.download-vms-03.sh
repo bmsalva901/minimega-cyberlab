@@ -13,7 +13,7 @@ sudo qemu-img convert -f vmdk -O qcow2 /opt/minimega/images/Kali-Linux-2019.2-vm
 sudo rm /opt/minimega/images/kali-linux-2019.2-vmware-amd64.7z
 sudo rm -r /opt/minimega/images/Kali-Linux-2019.2-vmware-amd64
 
-echo Downloading Metaspliot2 from: https://downloads.sourceforge.net/project/metasploitable/Metasploitable2/metasploitable-linux-2.0.0.zip 
+echo Downloading Metasploitable2 from: https://downloads.sourceforge.net/project/metasploitable/Metasploitable2/metasploitable-linux-2.0.0.zip 
 echo '##########################################################'
 
 sudo wget https://downloads.sourceforge.net/project/metasploitable/Metasploitable2/metasploitable-linux-2.0.0.zip -O /opt/minimega/images/metasploitable-linux-2.0.0.zip
