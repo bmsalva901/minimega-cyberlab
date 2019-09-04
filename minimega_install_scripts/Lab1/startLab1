@@ -1,5 +1,5 @@
 #start the vm deployment script
 MYUSER=$(whoami)
 
-sudo /opt/minimega/bin/minimega -e read /home/$MYUSER/minimegaScripts/minimega_install_scripts/Lab1/Lab1.mm
+sudo /opt/minimega/bin/minimega -e read /minimega-cyberlab/minimega_install_scripts/Lab1/Lab1.mm
 
