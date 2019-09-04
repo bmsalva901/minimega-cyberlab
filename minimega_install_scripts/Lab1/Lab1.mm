@@ -1,5 +1,3 @@
-sudo /opt/minimega/bin/minimega -attach
-
 #Simple script to deploy simple setup in minimega
 
 #At the beginning for every script, assign namespace and the following commands
@@ -21,7 +19,7 @@ clear vm config
 vm config disk /opt/minimega/images/Kali-Linux.qcow2
 vm config memory 2048
 vm config net 0
-vm config snapshot false
+vm config snapshot true
 vm config qemu-append -vga qxl
 vm launch kvm Kali2
 
@@ -30,7 +28,7 @@ clear vm config
 vm config disk /opt/minimega/images/Kali-Linux.qcow2
 vm config memory 2048
 vm config net 0
-vm config snapshot false
+vm config snapshot true
 vm config qemu-append -vga qxl
 vm launch kvm Kali3
 
@@ -39,7 +37,7 @@ clear vm config
 vm config disk /opt/minimega/images/Kali-Linux.qcow2
 vm config memory 2048
 vm config net 0
-vm config snapshot false
+vm config snapshot true
 vm config qemu-append -vga qxl
 vm launch kvm Kali4
 
