@@ -1,0 +1,7 @@
+#Stop the previously created namespace
+
+/opt/minimega/bin/minimega -e clear namespace Lab3
+/opt/minimega/bin/minimega -e clear tap
+
+
+

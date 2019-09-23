@@ -1,0 +1,7 @@
+#start the vm deployment script
+
+ovs-vsctl add-port mega_bridge eno1
+ifconfig eno1 0
+ifconfig mega_bridge 10.0.0.2/24
+
+sudo /opt/minimega/bin/minimega -e read /minimega-cyberlab/Lab3/Lab3.mm
